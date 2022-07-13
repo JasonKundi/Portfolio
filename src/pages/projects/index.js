@@ -7,10 +7,11 @@ const Projects = ({ children }) => {
     <Layout>
       <div className={portfolio}>{children}
         <h2>Portfolio</h2>
-        <h3>Projects & Websites I have created</h3>
+        <h3>Projects & Websites I've created</h3>
       </div>
     </Layout>
   )
 }
+
 
 export default Projects

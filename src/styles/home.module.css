@@ -33,6 +33,6 @@
   touch-action: manipulation;
 }
 .btn:hover {
-  background-color: #000000;
+  background-color: #e69bdd;
   cursor: pointer;
 }
