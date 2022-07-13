@@ -1,14 +1,17 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/Layout"
+import { header, btn } from '../styles/home.module.css'
 
-const Home = () => {
+const Home = ({ children }) => {
   return (
     <Layout>
-      <section>
+      <section className={header}>{children}
         <div>
-          <h2>Jason Kundi</h2>
-          <h3>Portfolio</h3>
+          <h2>Full-Stack</h2>
+          <h3>React, JavaScript, Node.JS</h3>
           <p>Software Developer based in London</p>
+          <Link to="/projects" className={btn}>{children} Check out my work</Link>
         </div>
       </section>
     </Layout>
