@@ -91,9 +91,24 @@ footer a:hover {
   padding-left: 100px;
 }
 .content {
-  padding-top: 75px;
+  padding-top: 60px;
 }
 .profile-pic {
   height: 500px;
   border-radius: 25%;
 }
+.about-body {
+  display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.about-text {
+  max-width: 30em;
+}
+.about-img {
+  border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
