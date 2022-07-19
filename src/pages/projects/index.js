@@ -11,7 +11,7 @@ const Projects = ({ children }) => {
         <h3>Projects & Websites I've created</h3>
         <ul>
           <h4>Hylla - Music Streaming App</h4>
-          <img className="ProjIMG" src="https://troopl-portfolio.s3.eu-west-1.amazonaws.com/zl1kynojerhdedre4sn9zqev1z90?response-content-disposition=inline%3B%20filename%3D%22Hylla%20app%20home.png%22%3B%20filename%2A%3DUTF-8%27%27Hylla%2520app%2520home.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJVWH45TXBJODL24A%2F20220717%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220717T202323Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=028b45883598b6e33e827975e7efc39f739d55a28328b506c41227d1b67c9e2f"></img>
+          <img className="ProjIMG" src=""></img>
           <p>
             Hylla is an early concept music streaming app I have created as my
             solo final project for my 6 month software developer bootcamp at
