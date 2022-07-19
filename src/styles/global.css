@@ -41,7 +41,8 @@ nav.links {
   display: inline-block;
   text-align: right;
 }
-nav a {
+nav a,
+footer a {
   display: inline-block;
   margin-left: 20px;
   font-weight: 400;
@@ -66,20 +67,33 @@ nav a {
   touch-action: manipulation;
 }
 nav a:hover {
-  border-color: #e69bdd;
+  background-color: #e69bdd;
+  transform:scale(1.08);
+  cursor: pointer;
 }
-footer p {
-  text-align: center;
-  color: #bbb;
-  margin: 40px auto;
+footer {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  gap: 10px;
+  height: 4em;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+footer a:hover {
+  background-color: #e69bdd;
+  transform:scale(1.08);
+  cursor: pointer;
 }
 .layout {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 .content {
-    padding-top: 75px;
+  padding-top: 75px;
 }
 .profile-pic {
-    height:500px;
-    border-radius: 25%;
+  height: 500px;
+  border-radius: 25%;
 }
