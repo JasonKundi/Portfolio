@@ -73,3 +73,13 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+.layout {
+    padding-left: 100px;
+}
+.content {
+    padding-top: 75px;
+}
+.profile-pic {
+    height:500px;
+    border-radius: 25%;
+}

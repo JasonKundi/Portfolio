@@ -13,6 +13,7 @@ const Home = ({ children }) => {
           <p>Software Developer based in London</p>
           <Link to="/projects" className={btn}>{children} Check out my work</Link>
         </div>
+        <img className="profile-pic" alt="Jason" src="/Jason.png"></img>
       </section>
     </Layout>
   )

@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "./Navbar"
+import Footer from "./Footer"
 import "../styles/global.css"
 
 
@@ -7,12 +8,10 @@ const Layout = ({ children }) => {
     return (
         <div className="layout">
             <Navbar />
-            <div classNAme="content">
+            <div className="content">
                 { children }
             </div>
-            <footer>
-                <p>Enjoy</p>
-            </footer>
+            <Footer />
         </div>
     )
 }
