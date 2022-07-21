@@ -21,15 +21,17 @@ const About = () => {
             </p>
             <p>
               Recently, I graduated from a Full-Stack Software Developer course
-              at Boolean UK and have just started a part time placement putting
-              my skills to the test on the back-end for a start up company
+              at Boolean UK which was a full-time 6 month course with over 900
+              hours of study. I have also just started a part time placement
+              putting my skills to the test on the back-end for a start up
+              company
             </p>
             <p>
               Before all this however, I was formally trained at University in
               Radio and Digital Production. I've always had a good interest in
               music and the creative arts. So Ideally if I could combine my deep
               passion for problem-solving and coding with my remaining
-              adolescent dream of the creative arts and music. I would be a very
+              adolescent dream of the creative arts and music, I would be a very
               happy bunny indeed!
             </p>
             <p>
@@ -38,10 +40,10 @@ const About = () => {
             </p>
           </div>
           <img
-              className="about-img"
-              alt="Me on Mannen mountain in Lofoten"
-              src="./Jason-Mannen.png"
-            ></img>
+            className="about-img"
+            alt="Me on Mannen mountain in Lofoten"
+            src="./Jason-Mannen.png"
+          ></img>
         </div>
       </div>
     </Layout>

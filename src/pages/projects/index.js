@@ -7,8 +7,7 @@ const Projects = ({ children }) => {
     <Layout>
       <div className={portfolio}>
         {children}
-        <h2>Portfolio</h2>
-        <h3>Projects & Websites I've created</h3>
+        <h2>My Favourites</h2>
         <ul>
           <h4>Hylla - Music Streaming App</h4>
           <img className="ProjIMG" src=""></img>

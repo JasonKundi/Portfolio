@@ -94,7 +94,7 @@ footer a:hover {
   padding-left: 100px;
 }
 .content {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .profile-pic {
   height: 500px;
@@ -103,10 +103,11 @@ footer a:hover {
 .about-body {
   display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .about-text {
   max-width: 30em;
+  overflow-y: auto;
 }
 .about-img {
   border-radius: 50%;
