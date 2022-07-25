@@ -4,7 +4,7 @@ import Layout from "../../components/Layout"
 import { portfolio } from "../../styles/projects.module.css"
 
 const Projects = ({ children }) => {
-  const [ToggleProject, setToggleProject] = useState(false)
+  const [ToggleProject, setToggleProject] = useState(true)
 
   return (
     <Layout>
