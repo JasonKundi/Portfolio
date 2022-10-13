@@ -1,24 +1,59 @@
 import React from "react"
-import { useState } from "react"
+import { Carousel } from 'react-carousel-minimal';
 import Layout from "../../components/Layout"
 import { portfolio } from "../../styles/projects.module.css"
 
 const Projects = ({ children }) => {
-  const [ToggleProject, setToggleProject] = useState(true)
-
+  const data = [
+    {
+      image: "https://user-images.githubusercontent.com/94011909/170559949-4c7a122d-b5fc-481d-8f5e-4234988a08fd.PNG",
+      caption: "Hylla - Music app"
+    }
+  ]
+  const captionStyle = {
+    fontSize: '2em',
+    fontWeight: 'bold',
+  }
+  const slideNumberStyle = {
+    fontSize: '20px',
+    fontWeight: 'bold',
+  }
   return (
     <Layout>
       <div className={portfolio}>
         {children}
         <h2>My Favourites</h2>
-        <div className="project-titles">
-          <h3 className="project-title" onClick={() => setToggleProject(true)}>Hylla</h3>
-          <h3 className="project-title" onClick={() => setToggleProject(false)}>Meal Planner</h3>
+        <div
+          style={{
+            padding: "0 20px",
+          }}
+        >
+          <Carousel
+            data={data}
+            time={2000}
+            width="850px"
+            height="500px"
+            captionStyle={captionStyle}
+            radius="10px"
+            slideNumber={true}
+            slideNumberStyle={slideNumberStyle}
+            captionPosition="bottom"
+            automatic={true}
+            dots={true}
+            pauseIconColor="white"
+            pauseIconSize="40px"
+            slideBackgroundColor="darkgrey"
+            slideImageFit="cover"
+            thumbnails={true}
+            thumbnailWidth="100px"
+            style={{
+              textAlign: "center",
+              maxWidth: "850px",
+              maxHeight: "500px",
+              margin: "40px auto",
+            }}
+          />
         </div>
-      </div>
-      <div className="projects">
-        {ToggleProject && <hylla />}
-        {!ToggleProject && <meal />}
       </div>
     </Layout>
   )
